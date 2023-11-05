@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #E9EDEE;
+    font-size: 0.9em;
+}
+
+header div, #mainfooter {
+    background-color: #222F3E;
+}
+
+header img {
+    width: 7%;
+    padding-left: 1.8%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+header nav, #prefooter {
+    background-color: #35485A;
+}
+
+header nav {
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+#prefooter {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+ul li {
+    display: inline;
+    padding-left: 1.5%;
+}
+
+nav a, #topbanner a, #prefooter a  {
+    color: #EFF8FF;
+}
+
+a {
+    text-decoration: none;
+}
+
+.specialA {
+    color: #306D63;
+    font-size: 0.8em;
+    font-weight: 800;
+    margin-left: 1%;
+
+}
+
+main {
+    margin: 2% 2.3%;
+    text-align: center;
+
+}
+
+section {
+    margin-bottom: 2%;
+}
+
+#topbanner {
+    background-color: #F56600;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+#topbox {
+    background-image: url("/assets/images/bg-image.png");
+    background-size: contain;
+    color: white;
+    line-height: 1.9;
+    
+}
+
+h1 {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+#topbox div {
+    padding: 3.5%;
+}
+
+#imageblock {
+    background-color: white;
+    padding: 1.5%;
+}
+
+#imageblock h2 {
+    text-align: left;
+    margin-bottom: 1%;
+}
+
+.rowimage {
+    display: inline-block;
+    padding: 0.5%;
+}
+/* non volevo usare una misura assoluta, ma con le percentuali o le immagini si impilavano o si affiancavano sovrapponendosi */
+.rowimage img {
+    height: 150px;
+    border-radius: 5%;
+}
+
+.largerimage img {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: underline;
+}
+
+footer img {
+    width: 10%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
